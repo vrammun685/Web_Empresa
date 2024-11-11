@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(imagenFondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Cabecera */
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    background-color: white;
+    padding: 0 2%;
+    width: 100%; /* Asegura que la cabecera no provoque desplazamiento */
+    box-sizing: border-box;
+}
+
+/* Contenedor de logo y textos */
+#logo-titulo {
+    display: flex;
+    align-items: center;
+    padding: 0.2%;
+}
+
+/* Logotipo */
+#logotipo {
+    height: 50%;
+    max-height: 14vh;
+    width: auto;
+    border-radius: 8px;
+}
+
+/* Títulos */
+#titulo {
+    margin: 0;
+    font-size: 230%;
+    color: #1394a5;
+}
+
+#eslogan {
+    margin: 0;
+    font-size: 190%;
+    color: #47d6e9;
+}
+
+/* Menú de navegación */
+#menu {
+    display: flex;
+    gap: 1em;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 150%;
+    padding: 0.5em 1em;
+}
+
+#menu a:hover {
+    color: #f8f8f8;
+    background-color: #1394a5;
+}
+
+/* Contenido */
+#contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    overflow: hidden;
+}
+
+/* Carrusel de texto */
+#carrutexto {
+    max-width: 600px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(63, 106, 138, 0.21);
+    transform: translateY(0px);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; /* Evita expansión por padding */
+}
+
+/* Título en carrutexto */
+#carrutexto h3 {
+    margin-top: 0;
+}
+#carrutexto:hover h3 {
+    font-size: 25px;
+}
+#carrutexto:hover p {
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+#iconos {
+    display: flex; /* Utiliza Flexbox para alinear elementos en fila */
+    justify-content: center; /* Centra horizontalmente los íconos */
+    width: 10%; /* Ancho del contenedor */
+    padding: 2px; /* Menos espacio interno alrededor del contenido */
+    /*position: absolute; /* Hace que el contenedor de íconos esté en una posición fija */
+    bottom: 3px; /* Lo fija a 20px del fondo de la pantalla */
+    background-color: white;
+    margin-left: 46%;
+    border-radius: 15px;
+}
+
+.enlace {
+    width: 100px; /* Ancho fijo para los íconos */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Espacio entre los íconos */
+}
+
+.icono {
+    width: 30px; /* Ancho fijo para los íconos */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Espacio entre los íconos */
+}

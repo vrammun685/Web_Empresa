@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="comprar.css">
+</head>
+<body>
+    <div id="cabecera">
+        <div id="logo-titulo">
+            <img id="logotipo" src="logo.webp" alt="logotipo">
+            <div id="textos">
+                <h1 id="titulo">Visión</h1>
+                <h2 id="eslogan">El futuro en tus ojos</h2>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="index.html">Inicio</a>
+        </div>
+    </div>
+    <div id="contenido">
+        <form name="formulario" id="formulario">
+            <label>Pais</label>
+            <input name="pais" type="text"><br>
+            <label>Provincia</label>
+            <input name="provincia" type="text"><br>
+            <label>Domicilio</label>
+            <input name="domicilio" type="text"><br>
+            <label>Número de tarjeta</label>
+            <input name="numero" type="number"><br>
+            <label>Fecha de caducidad</label>
+            <input name="fecha" type="date"><br>
+            <label>CVC</label>
+            <input name="cvc" type="number"><br>
+
+            <button onclick="comprar()">Comprar</button>
+        </form>
+        
+    </div>
+    <script src="scri.js"></script>
+</body>
+</html>

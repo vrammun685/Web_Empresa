@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="sesion.css">
+</head>
+<body>
+    <div id="cabecera">
+        <div id="logo-titulo">
+            <img id="logotipo" src="logo.webp" alt="logotipo">
+            <div id="textos">
+                <h1 id="titulo">Visión</h1>
+                <h2 id="eslogan">El futuro en tus ojos</h2>
+            </div>
+        </div>
+        <div id="menu">
+            <a href="index.html">Inicio</a>
+        </div>
+    </div>
+    <div id="contenido">
+        <form name="formulario" id="formulario">
+            <label>Nombre</label>
+            <input name="name" type="text"><br>
+            <label>Apellidos</label>
+            <input name="apellidos" type="text"><br>
+            <label>Numº Telf</label>
+            <input name="numTelefono" type="number"><br>
+            <label>Correo Electronico</label>
+            <input name="email" type="email"><br>
+            <label>Problemas visuales(Opcional)</label>
+            <input name="problemas" type="text"><br>
+            <label>Contraseña</label>
+            <input name="contraseña" type="password"><br>
+            <label>Repetir Contraseña</label>
+            <input name="repContraseña" type="password"><br>
+
+            <button onclick="registrar()">Registrate</button>
+        </form>
+        
+    </div>
+    <script src="scri.js"></script>
+</body>
+</html>
